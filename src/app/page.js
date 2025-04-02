@@ -19,8 +19,8 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-
-        <div className={styles.ctas}>
+        <h1>Naveen Singh is Good Boy</h1>
+        {/* <div className={styles.ctas}>
           <a
             className={styles.primary}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -44,7 +44,7 @@ export default function Home() {
           >
             Read our docs
           </a>
-        </div>
+        </div> */}
       </main>
       <footer className={styles.footer}>
         <a
