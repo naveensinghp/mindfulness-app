@@ -5,14 +5,16 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
+      <h1>{'🌿 Daily Mindfulness Prompt: "Return to the Breath"'}</h1>
+      <p>{'Take one minute.Sit still. Gently close your eyes.Inhale slowly through your nose. Feel your lungs fill.Exhale gently through your mouth. Let your body soften.Thoughts may come. That’s okay.Simply return to the breath.Again. And again.This is mindfulness. Not escape—but arriving.'}</p>
+        {/* <Image
           className={styles.logo}
           src="/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
           priority
-        />
+        /> */}
         {/* <ol>
           <li>
             Get started by editing <code>src/app/page.js</code>.
@@ -45,9 +47,10 @@ export default function Home() {
             Read our docs
           </a>
         </div> */}
+       
       </main>
       <footer className={styles.footer}>
-        <a
+        {/* <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -88,7 +91,7 @@ export default function Home() {
             height={16}
           />
           Go to nextjs.org →
-        </a>
+        </a> */}
       </footer>
     </div>
   );
